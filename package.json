@@ -1,0 +1,31 @@
+{
+  "name": "spider",
+  "version": "0.0.0",
+  "description": "TF1 spider",
+  "main": "index.js",
+  "os": [
+    "!win32"
+  ],
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3"
+  },
+  "scripts": {
+    "start": "node index.js | bunyan"
+  },
+  "keywords": [
+    "spider"
+  ],
+  "author": "eTF1",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "bluebird": "3.5.1",
+    "config": "1.26.2",
+    "eslint": "4.8.0",
+    "htmlparser2": "3.9.2",
+    "lodash": "4.17.4",
+    "phantom": "4.0.5",
+    "url": "0.11.0"
+  },
+  "devDependencies": {}
+}
